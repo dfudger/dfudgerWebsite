@@ -46,14 +46,15 @@ body {
 	margin: 0 0 0 0;
 	overflow: hidden;
 	background-color: #FFECEC;
+
 }
 
 .project img {
 	padding-top: 50px;
-	padding-right: 30px;
 	width: 200px;
 	height: 200px;
 	float:left;
+	margin-left: -200px;
 }
 
 .project h2 {
