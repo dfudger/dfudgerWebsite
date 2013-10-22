@@ -11,7 +11,7 @@ body {
 	top:0;
 	left:0;
 	padding-top: 60px;
-	border-bottom: 2px dashed #A1A19E;
+	/*border-bottom: 2px dashed #A1A19E;*/
 	background-color: #E6585D;
 	margin: 0 0 0 0;
 	color: #FFECEC;
@@ -40,7 +40,8 @@ body {
 	width: 100%;
 	padding-left: 20px;
 	padding-right:20px;
-	border-bottom: 2px dashed #A1A19E;
+	padding-bottom: 20px;
+	/*border-bottom: 2px dashed #A1A19E;*/
 	background-color: #fcfcfc;
 	margin: 0 0 0 0;
 	overflow: hidden;
