@@ -8,6 +8,7 @@ body {
 #titleBar{
 	/*height: 300px;*/
 	padding-top: 60px;
+	padding-bottom: 40px;
 	/*border-bottom: 2px dashed #A1A19E;*/
 	background-color: #E6585D;
 	margin: 0 0 0 0;
