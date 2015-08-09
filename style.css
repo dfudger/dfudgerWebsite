@@ -1,0 +1,116 @@
+body {
+	background-color: #F7F6F2;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+
+#titleBar{
+	/*height: 300px;*/
+	padding-top: 60px;
+	padding-bottom: 40px;
+	/*border-bottom: 2px dashed #A1A19E;*/
+	background-color: #E6585D;
+	margin: 0 0 0 0;
+	color: #FFECEC;
+}
+
+#titleBar h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size:100px;
+	line-height: 1.3em;
+	padding-bottom: 80px;
+}
+
+#titleBar p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+
+	padding: 3px;
+	width:80%;
+	line-height:1.3em;
+}
+
+
+.project{
+	/*width: 100%;*/
+	padding-left: 300px;
+	padding-right:20px;
+	padding-bottom: 20px;
+	border-bottom: 2px dashed #FFF;
+	background-color: #fcfcfc;
+	margin: 0 0 0 0;
+	overflow: hidden;
+	background-color: #FFECEC;
+
+}
+
+.project img {
+	padding-top: 50px;
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-left: -220px;
+	padding-right: 20px;
+}
+
+.project h2 {
+	font:;
+	font-size: ;
+	padding-top: 20px;
+	width:80%;
+	margin: 0 0 0 0;
+}
+
+.project p {
+	font:;
+	font-size: ;
+	padding-top: 30px;
+	width:80%;
+	margin: 0 0 0 0;
+}
+
+.project a {
+	font:;
+	font-size: ;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push, #footer {
+	height: 70px;
+}
+
+#footer {
+	background-color: #f8f8f8;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+	#footer {
+	  margin-left: -20px;
+	  margin-right: -20px;
+	  padding-left: 20px;
+	  padding-right: 20px;
+	}
+}
+
+.social-icons a,
+.social-icons a:hover {
+  color: #333;
+  text-decoration: none;
+  margin: 0 5px;
+  
+}
