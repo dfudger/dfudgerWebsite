@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
 	background-color: #F7F6F2;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
@@ -114,3 +115,9 @@ body {
   margin: 0 5px;
   
 }
+=======
+	padding: 50 50 50 50;
+	margin: 0 0 0 0;
+	font-family: 'Libre Baskerville', 'Times New Roman', serif;
+}
+>>>>>>> f1d5b54adbe906f2dd6a381448ea98c812cdd415
