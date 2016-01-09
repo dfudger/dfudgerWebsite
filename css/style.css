@@ -1,0 +1,32 @@
+body {
+	padding: 50 50 50 50;
+	margin: 0 0 0 0;
+	font-family: 'Libre Baskerville', 'Times New Roman', serif;
+}
+ul {
+	padding-left: 0px;
+}
+
+ul li {
+	padding-left:0;
+	list-style-type: none;
+	display: inline;
+}
+
+i, .icon {
+  font-family: 'mfg_labs_iconsetregular';
+  font-style: normal;
+  speak: none;
+  font-weight: normal;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+	color: black;
+	padding: 2px;
+}
+
+.icon2x { font-size: 2em; }
+.icon3x { font-size: 3em; }
+
+a:link {
+	text-decoration: none;
+}
