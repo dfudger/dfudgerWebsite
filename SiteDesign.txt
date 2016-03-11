@@ -1,0 +1,11 @@
+This personal website must include:
+
+1. My resume, either an html version or a pdf
+2. Contact information
+
+
+
+
+Should Include:
+
+Elevator Pitch: Who you are, what you do, and what you're looking for.
