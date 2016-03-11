@@ -9,3 +9,15 @@ This personal website must include:
 Should Include:
 
 Elevator Pitch: Who you are, what you do, and what you're looking for.
+
+Summary: no more than two to three paragraphs
+         major companies you’ve worked for
+         projects you’ve worked on that you’re most proud of
+         your “superpower” as a professional
+         a little personality.
+
+         Imagine people coming to your site and only reading this one section.
+         What would you want them to take away?
+
+
+Gallery of Work: only the best, not all of it.
