@@ -1,128 +1,264 @@
-/* --------------------------------------------------------------
-/* =BASIS
--------------------------------------------------------------- */
-
+/* GLOBAL STYLES
+-----------------*/
+/* apply a natural box layout model to all elements */
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  box-sizing: border-box; }
 
-
-h1, h2 {
-	font-family: 'Open Sans', sans-serif;  font-weight: 300;
-}
-
-main {
-	background: #ffffff;
-	/*padding: 50 50 50 50;*/
-  font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	margin: 40px;
-}
-
-p {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-}
-
-ul {
-	padding-left: 0px;
-}
-
-ul li {
-	padding-left:0;
-	list-style-type: none;
-	display: inline;
-}
-
-i, .icon {
-  font-family: 'mfg_labs_iconsetregular';
-  font-style: normal;
-  speak: none;
-  font-weight: normal;
-  font-size: 1em;
-  -webkit-font-smoothing: antialiased;
-	color: black;
-	padding: 2px;
-}
-
-.icon2x { font-size: 2em; }
-.icon3x { font-size: 3em; }
-
-a:link {
-	text-decoration: none;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-	width: 50%;
-  max-width: 100%;
-}
-
-/* --------------------------------------------------------------
-/* =ESSENTIAL CLASSES
--------------------------------------------------------------- */
-.wrapper, .aboutme {
-  width: 860px;
-  margin: 0 auto;
-}
-.wrapper::after {
+/* Fixes the clearing of floats on child elements -
+This class should be added to the parent element to
+force clear the floats of the child elements */
+.clearfix:after {
   content: "";
-  display: block;
-  clear: both;
-}
+  display: table;
+  clear: both; }
 
 
-/* --------------------------------------------------------------
-/* =FOOTER
--------------------------------------------------------------- */
-footer, main {
-  padding: 0 0 70px 0;
+body {
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
 }
-.footer-col {
-  width: 25%;
-  padding: 0 20px 0 0;
+
+h1 {
+  font-family: "Pacifico", Georgia, cursive;
+  font-size: 80px;
+  font-weight: 400;
+  margin: 0;
+  color: #e74c3c;
+}
+
+h2, h3, h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+h2, h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+section {
+  /* every other section element, starting with
+  the second section */ }
+
+  section h2 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px; }
+
+
+a {
+  color: #e74c3c; }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  .work-experience a:hover {
+    color: black;
+  }
+
+
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  /* and / or */
+  width: 80%;
+}
+
+/* HEADER
+----------*/
+header {
+  text-align: center;
+  padding: 150px 50px;
+}
+
+/* ABOUT ME / PROFILE
+----------------------*/
+.profile {
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff; }
+  .profile h2 {
+    background: #e74c3c;
+    display: inline-block;
+    padding: 10px 20px;
+    transform: rotate(-4deg);
+    margin-bottom: 10px;
+    border: none; }
+  .profile .profile-image {
+    width: 27%;
+    float: left;
+    padding: 4px;
+    margin-right: 3%;
+    border: 1px solid #ddd;
+    border-radius: 50%; }
+  .profile .summary {
+    float: left;
+    width: 70%; }
+
+
+    .item {
+      border-bottom: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding: 20px 0; }
+      .item:last-child {
+        border-bottom: none;
+        margin-bottom: 0; }
+
+
+/* WORK EXPERIENCE & EDUCATION
+-------------------------------*/
+/* job & education entries */
+.item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding: 20px 0; }
+  .item:last-child {
+    border-bottom: none;
+    margin-bottom: 0; }
+
+
+/* WORK EXPERIENCE
+-------------------*/
+.work-experience .date {
+  margin: 5px 0 20px 0;
+  font-size: 12px;
+}
+
+.work-experience h3 {
+  line-height: 1.25;
+  font-size: 16px;
+}
+
+.work-experience .details {
   float: left;
+  width: 30%;
+  padding-right: 30px;
 }
 
-
-/* --------------------------------------------------------------
-/* =RESPONSIVE / SCREEN UNDER 1200PX
--------------------------------------------------------------- */
-@media screen and (max-width: 1200px) {
-  .large-wrapper {
-    width: 100%;
-    margin: 0;
-  }
-  .opl { display: none; }
+.work-experience .description {
+  font-size: 14px;
+  width: 70%;
+  float: right;
+  margin-top: 5px;
 }
 
-/* --------------------------------------------------------------
-/* =RESPONSIVE / SCREEN UNDER 600PX
--------------------------------------------------------------- */
-@media screen and (max-width: 900px) {
-  p {
-    margin: 5px 0 13px 0;
-    font-size: 14px;
-    line-height: 170%;
-  }
-  header {
-    padding: 20px 0;
-  }
-  .wrapper {
-    width: 88%;
-    margin: 0 6%;
-  }
-  footer {
-    padding: 0 0 30px 0;
-    text-align: left;
-  }
-  .footer-col {
-    width: 100%;
-    padding: 0;
-  }
+.work-experience .description p:first-child {
+  margin-top: 8px; }
+
+
+.company {
+  font-family: "Pacifico", Georgia, cursive;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  color: #e74c3c;
 }
+
+/* EDUCATION
+-------------*/
+.education h4 {
+  color: #e74c3c; }
+
+
+/* CONTACT & FOOTER
+--------------------*/
+.contact {
+  background: #111;
+  color: #fff; }
+  .contact p {
+    margin: 0; }
+    .contact p:first-of-type {
+      margin-top: 35px; }
+  .contact .social {
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-size: 30px; }
+    .contact .social a {
+      margin: 0 8px; }
+
+footer {
+  clear: both;
+  font-size: 12px;
+  margin-top: 50px; }
+
+
+  /* MEDIA QUERIES
+  -----------------*/
+  @media (max-width: 1000px) {
+    .profile .profile-image {
+      width: 50%;
+      float: right;
+      margin: 0 0 15px 20px; }
+    .profile .summary {
+      width: auto;
+      float: none; } }
+  @media (max-width: 825px) {
+    body {
+      background: #fefefe; }
+
+    header {
+      padding-top: 60px;
+      padding-bottom: 60px; }
+
+    h1 {
+      font-size: 60px;
+      line-height: 1;
+      margin-bottom: 30px;
+      color: #e74c3c; }
+
+    h2 {
+      font-size: 24px; }
+
+    .work-experience .details {
+      padding-right: 0; }
+    .work-experience .details,
+    .work-experience .description {
+      width: 100%;
+      float: none; }
+    .work-experience .date {
+      font-size: 13px; }
+
+    .skills {
+      font-size: inherit;
+      background: rgba(0, 0, 0, 0.8); }
+
+    .skills-list .columns {
+      width: 50%; }
+      .skills-list .columns:last-child {
+        width: 100%;
+        margin-top: 20px; }
+
+    .skills-circles ul li {
+      height: 100px;
+      width: 100px;
+      line-height: 100px;
+      font-size: 13px; } }
+  @media (max-width: 650px) {
+    .content-wrap {
+      width: 85%; }
+
+    .contact {
+      text-align: center; }
+      .contact .social {
+        width: 100%;
+        text-align: center; } }
+  @media (max-width: 480px) {
+    .profile .profile-image {
+      width: 65%;
+      margin: 0px auto;
+      display: block;
+      float: none; }
+    .profile h2 {
+      display: block;
+      transform: rotate(0deg);
+      margin-top: 20px; }
+
+    h2,
+    .work-experience .details {
+      text-align: center; }
+
+    .skills-list .columns {
+      width: 100%; } }
