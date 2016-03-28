@@ -4,6 +4,10 @@
 *, *:before, *:after {
   box-sizing: border-box; }
 
+body {
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
+}
 
 h1 {
   font-family: "Pacifico", Georgia, cursive;
@@ -25,6 +29,16 @@ h2, h3 {
 h2 {
   font-size: 32px;
 }
+
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  /* and / or */
+  width: 80%;
+}
+
+
 
 /* HEADER
 ----------*/
