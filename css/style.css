@@ -156,6 +156,10 @@ header {
   color: #e74c3c;
 }
 
+.project-image {
+  width: 50%;
+}
+
 /* EDUCATION
 -------------*/
 .education h4 {
