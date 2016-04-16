@@ -16,6 +16,7 @@ force clear the floats of the child elements */
 body {
   font-family: "Merriweather", serif;
   line-height: 1.5;
+  margin: 0px;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   margin: 0;
-  color: #e74c3c;
+  color: #8e44ad;
 }
 
 h2, h3, h4 {
@@ -50,7 +51,8 @@ section {
 
 
 a {
-  color: #e74c3c; }
+  color: #8e44ad;
+  }
   a:hover {
     color: white;
     text-decoration: none;
@@ -72,7 +74,7 @@ a {
 ----------*/
 header {
   text-align: center;
-  padding: 150px 50px;
+  padding: 50px 50px;
 }
 
 /* ABOUT ME / PROFILE
@@ -81,12 +83,13 @@ header {
   background: rgba(0, 0, 0, 0.8);
   color: #fff; }
   .profile h2 {
-    background: #e74c3c;
+    background: #9b59b6;
     display: inline-block;
     padding: 10px 20px;
     transform: rotate(-4deg);
     margin-bottom: 10px;
-    border: none; }
+    border: none;
+    }
   .profile .profile-image {
     width: 27%;
     float: left;
@@ -153,17 +156,19 @@ header {
   font-family: "Pacifico", Georgia, cursive;
   font-size: 20px;
   letter-spacing: 0.08em;
-  color: #e74c3c;
+  color: #8e44ad;
 }
 
 .project-image {
-  width: 50%;
+  max-width: 120px;
+  max-height: 120px;
 }
 
 /* EDUCATION
 -------------*/
 .education h4 {
-  color: #e74c3c; }
+  color: #8e44ad;
+  }
 
 
 /* CONTACT & FOOTER
@@ -211,7 +216,7 @@ footer {
       font-size: 60px;
       line-height: 1;
       margin-bottom: 30px;
-      color: #e74c3c; }
+      color: #8e44ad; }
 
     h2 {
       font-size: 24px; }
