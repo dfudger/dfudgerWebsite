@@ -24,7 +24,7 @@ h1 {
   font-size: 80px;
   font-weight: 400;
   margin: 0;
-  color: #8e44ad;
+  color: #e74c3c;
 }
 
 h2, h3, h4 {
@@ -51,8 +51,7 @@ section {
 
 
 a {
-  color: #8e44ad;
-  }
+  color: #e74c3c; }
   a:hover {
     color: white;
     text-decoration: none;
@@ -83,13 +82,12 @@ header {
   background: rgba(0, 0, 0, 0.8);
   color: #fff; }
   .profile h2 {
-    background: #9b59b6;
+    background: #e74c3c;
     display: inline-block;
     padding: 10px 20px;
     transform: rotate(-4deg);
     margin-bottom: 10px;
-    border: none;
-    }
+    border: none; }
   .profile .profile-image {
     width: 27%;
     float: left;
@@ -156,18 +154,17 @@ header {
   font-family: "Pacifico", Georgia, cursive;
   font-size: 20px;
   letter-spacing: 0.08em;
-  color: #8e44ad;
+  color: #e74c3c;
 }
 
 .project-image {
-  width: 120px;
+  width: 50%;
 }
 
 /* EDUCATION
 -------------*/
 .education h4 {
-  color: #8e44ad;
-  }
+  color: #e74c3c; }
 
 
 /* CONTACT & FOOTER
